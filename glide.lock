@@ -1,0 +1,12 @@
+hash: 19b5989c05ae618d47ce8ff455644d403428a9b154630f1363217cfb2310a798
+updated: 2017-05-27T15:30:52.473946961+02:00
+imports:
+- name: github.com/jinzhu/gorm
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+  subpackages:
+  - dialects/mysql
+- name: github.com/o1egl/gormrus
+  version: 57710b0229272260f1fa2b31838a0dc4baa22a0a
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+testImports: []
