@@ -11,7 +11,7 @@ COPY glide.lock glide.lock
 
 RUN glide install
 
-COPY . .
+COPY main.go main.mog
 
 RUN env && ls -lah && go install
 
