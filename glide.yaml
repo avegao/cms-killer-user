@@ -1,0 +1,9 @@
+package: github.com/avegao/cms-killer-user
+import:
+- package: github.com/jinzhu/gorm
+  version: ~1.0.0
+  subpackages:
+  - dialects/mysql
+- package: github.com/Sirupsen/logrus
+  version: ~0.11.5
+- package: github.com/o1egl/gormrus
